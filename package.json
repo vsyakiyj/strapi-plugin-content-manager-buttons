@@ -1,9 +1,22 @@
 {
 	"name": "@vsyakiyj/strapi-plugin-content-manager-actions",
 	"version": "0.0.1",
-	"description": "Preview/shareUrl button for Strapi admin", 
+	"description": "Custom action buttons for the Strapi Content Manager.",  
+	"files": [
+		"admin",
+		"server",
+		"strapi-admin.js",
+		"strapi-server.js",
+		"package.json",
+		"README.md"
+	],
 	"strapi": {
 		"name": "content-manager-actions", 
 		"kind": "plugin"
+	},
+	"peerDependencies": {
+		"@strapi/strapi": "^5.0.0",
+		"react": "^18.0.0",
+		"react-dom": "^18.0.0"
 	}
 }

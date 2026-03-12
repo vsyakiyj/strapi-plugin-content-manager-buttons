@@ -1,3 +1,3 @@
-import server from './server/src';
+'use strict';
 
-export default server;
+module.exports = require('./server/src');
