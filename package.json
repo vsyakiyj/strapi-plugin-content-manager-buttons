@@ -1,0 +1,9 @@
+{
+	"name": "@vsyakiyj/strapi-plugin-content-manager-actions",
+	"version": "0.0.1",
+	"description": "Preview/shareUrl button for Strapi admin", 
+	"strapi": {
+		"name": "content-manager-actions", 
+		"kind": "plugin"
+	}
+}
